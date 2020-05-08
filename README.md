@@ -33,7 +33,7 @@ This step will compile a mex function allow matlab to run c++ code, therefore ma
 ### 1) run matlab code
 run main_mvps.m
 
-this code will add data folder, src foler and DVO/build/ folder to matlab path, so if you name the folder differently, please change accordingly.
+this code will add data folder, src folder and DVO/build/ folder to matlab path, so if you name the folder differently, please change accordingly.
 
 
 
