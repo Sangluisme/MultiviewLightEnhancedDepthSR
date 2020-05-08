@@ -16,5 +16,24 @@ This code has four third party dependencies:
 1) [inpaint_nans](https://de.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/4551/versions/2/download/zip) (mandatory)
 2) [CMake](https://cmake.org/) (mandatory minimum required 2.8)
 3) [OpenCV](https://opencv.org/) (mandatory)
-4) [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page)
+4) [Eigen3](http://eigen.tuxfamily.org/index.php?title=Main_Page) (mandatory)
+
+## 2. Getting Started
+### 0) compile DVO code
+go to DVO folder, create a build folder then run 
+```
+camke ..
+```
+then 
+```
+make
+```
+This step will compile a mex function allow matlab to run c++ code, therefore make sure the matlab root is in the system path.
+
+### 1) run matlab code
+run main_mvps.m
+
+this code will add data folder, src foler and DVO/build/ folder to matlab path, so if you name the folder differently, please change accordingly.
+
+
 
