@@ -1,0 +1,10 @@
+**/*.aux
+**/*.bbl
+**/*.blg
+**/*.log
+WACV/paper.pdf
+**/*.brf
+**/*.nfs*
+**/build
+**/*.synctex.gz
+**/*.m~
