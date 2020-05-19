@@ -29,12 +29,9 @@ FIND_PACKAGE(Eigen REQUIRED)
 INCLUDE_DIRECTORIES(${EIGEN_INCLUDE_DIR})
 
 # OpenCV
-#FIND_PACKAGE(OpenCV 2.4.8 COMPONENTS opencv_core opencv_highgui opencv_imgproc REQUIRED)
-  #ADD_DEFINITIONS(-DUSE_OPENCV)
-  SET(OpenCV_DIR /usr/wiss/sang/.local/share/OpenCV/)
-  FIND_PACKAGE( OpenCV REQUIRED)
-  #SET(OpenCV_ROOT /usr/share/OpenCV/)
-  #FIND_PACKAGE( OpenCV REQUIRED PATHS /usr/share/OpenCV/)
+#ADD_DEFINITIONS(-DUSE_OPENCV)
+FIND_PACKAGE( OpenCV REQUIRED)
+  
 #==============================================================================
 # Application
 #==============================================================================
