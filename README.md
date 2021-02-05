@@ -22,7 +22,7 @@ This code has four third party dependencies:
 ### 0) compile DVO code
 go to DVO folder, create a build folder then run 
 ```
-camke ..
+cmake ..
 ```
 then 
 ```
